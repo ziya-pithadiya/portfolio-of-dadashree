@@ -1,0 +1,255 @@
+this is portfloio of dadashree.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ziya Pithadiya | Portfolio Inspired by Dada Bhagwan</title>
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #6a4c93; /* calm spiritual purple */
+      --secondary: #f6f2fb;
+      --accent: #e9d8fd;
+      --dark: #1e1e1e;
+      --light: #666;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--dark);
+      background: white;
+      line-height: 1.8;
+    }
+
+    /* ================= NAVBAR ================= */
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(255,255,255,0.95);
+      border-bottom: 1px solid #eee;
+      z-index: 1000;
+    }
+
+    nav {
+      max-width: 1100px;
+      margin: auto;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      color: var(--primary);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: var(--dark);
+      font-weight: 500;
+    }
+
+    nav ul li a:hover {
+      color: var(--primary);
+    }
+
+    /* ================= GENERAL ================= */
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 6rem 1.5rem;
+    }
+
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      margin-bottom: 1.2rem;
+    }
+
+    /* ================= HERO ================= */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+      background: linear-gradient(135deg, var(--secondary), white);
+    }
+
+    .hero-text {
+      flex: 1;
+    }
+
+    .hero-text span {
+      color: var(--primary);
+    }
+
+    .hero-text p {
+      margin-top: 1.2rem;
+      color: var(--light);
+      max-width: 520px;
+    }
+
+    .quote-box {
+      flex: 1;
+      background: white;
+      padding: 2.5rem;
+      border-radius: 24px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+      font-style: italic;
+    }
+
+    /* ================= ABOUT ================= */
+    .about p {
+      max-width: 850px;
+      color: var(--light);
+    }
+
+    /* ================= PHILOSOPHY ================= */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.06);
+    }
+
+    .card h3 {
+      color: var(--primary);
+      margin-bottom: 0.6rem;
+    }
+
+    /* ================= CONTACT ================= */
+    .contact-box {
+      background: linear-gradient(135deg, var(--primary), #4a2f6b);
+      color: white;
+      padding: 3rem;
+      border-radius: 24px;
+      text-align: center;
+    }
+
+    .contact-box a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.9rem 1.6rem;
+      background: white;
+      color: var(--primary);
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--light);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+<header>
+  <nav>
+    <h1>Ziya Pithadiya</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#philosophy">Philosophy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ================= HOME ================= -->
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h2>Portfolio Inspired by <span>Dada Bhagwan</span></h2>
+    <p>
+      I am Ziya Pithadiya, an aspiring gynecologist with a deep interest in biology and women’s health. My values and approach to life are inspired by the teachings of Dada Bhagwan and the philosophy of Akram Vignan—living with awareness, compassion, and inner harmony.
+    </p>
+  </div>
+
+  <div class="quote-box">
+    “Adjustment is the highest religion.”<br>
+    — Dada Bhagwan
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <h2>About Me</h2>
+  <p>
+    My name is <strong>Ziya Pithadiya</strong>. I aspire to become a gynecologist who combines scientific knowledge with emotional balance and ethical clarity. Inspired by Dada Bhagwan’s teachings, I believe true service comes from inner awareness, non-judgment, and compassion.
+  </p>
+</section>
+
+<!-- ================= PHILOSOPHY ================= -->
+<section id="philosophy">
+  <h2>Core Values & Philosophy</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Awareness (Gnan)</h3>
+      <p>Inspired by Akram Vignan, I value self-awareness and right understanding in every action.</p>
+    </div>
+    <div class="card">
+      <h3>Adjustment & Harmony</h3>
+      <p>Dada Bhagwan taught that adjustment creates peace—an essential value in healthcare and life.</p>
+    </div>
+    <div class="card">
+      <h3>Compassionate Care</h3>
+      <p>True healing comes with empathy, respect, and seeing every individual without judgment.</p>
+    </div>
+    <div class="card">
+      <h3>Science with Spiritual Balance</h3>
+      <p>I aim to balance medical science with inner stability, ethics, and human understanding.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+  <div class="contact-box">
+    <h2>Contact</h2>
+    <p>If you wish to connect or share thoughts on medicine, service, or philosophy, feel free to reach out.</p>
+    <a href="mailto:ziyapithadiyagmail.com">ziyapithadiyagmail.com</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Ziya Pithadiya · Inspired by Dada Bhagwan & Akram Vignan
+</footer>
+
+</body>
+</html>
